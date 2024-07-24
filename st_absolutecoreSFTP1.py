@@ -37,7 +37,7 @@ if st.button("Submit"):
 
 
     st.write('finished sending an AES-256 encrypted file from Australia to London')
-    st.write('by somebody pressing a button in Laramie, Wyoming, USA')
+    st.write('by somebody pressing a button in a third location')
 
 
     
