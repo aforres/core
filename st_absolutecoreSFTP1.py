@@ -7,7 +7,7 @@ import paramiko
 #from path import Path
 #import datetime
 
-st.title("Core SFTP")
+st.title("Core SFTP - ultra simple example of double encryption")
 
 if st.button("Submit"):
 
