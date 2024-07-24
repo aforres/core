@@ -9,7 +9,8 @@ import paramiko
 
 st.title("Core SFTP")
 
-def btn_func():
+if st.button("Submit"):
+
     paramiko.util.log_to_file("paramiko.log")
     host,port = "ssh.pythonanywhere.com",22
     
@@ -34,7 +35,6 @@ def btn_func():
     if sftp: sftp.close()
     if transport: transport.close()
 
-if st.button("Submit", on_click=btn_func):
 
 st.write('finished sending ')
 
