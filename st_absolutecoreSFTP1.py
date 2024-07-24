@@ -34,9 +34,9 @@ def btn_func():
     if sftp: sftp.close()
     if transport: transport.close()
 
-if st.button("Submit", on_click=btn_func)
+if st.button("Submit", on_click=btn_func):
 
-st.write('finished')
+st.write('finished sending ')
 
 
     
