@@ -9,7 +9,7 @@ import paramiko
 
 st.title("Core SFTP")
 
-def btn_func()
+def btn_func():
     paramiko.util.log_to_file("paramiko.log")
     host,port = "ssh.pythonanywhere.com",22
     
