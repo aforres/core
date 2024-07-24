@@ -36,8 +36,7 @@ if st.button("Submit"):
     if transport: transport.close()
 
 
-    st.write('finished sending an AES-256 encrypted file\n
-    from Australia to London')
+    st.write('finished sending an AES-256 encrypted file from Australia to London')
 
 
     
