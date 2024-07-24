@@ -26,7 +26,7 @@ key = "Qa23cf542!28&^9856"
 pyAesCrypt.encryptFile("outward_bound.txt", "outward_bound.txt.aes", key)
 
 outfile = "outward_bound.txt.aes"
-localpath = "C:/Users/aforr/Thonny/MM/" + outfile
+localpath = outfile
 filepath = "/home/alastair/encrypted/" + outfile
 sftp.put(localpath,filepath)
 
