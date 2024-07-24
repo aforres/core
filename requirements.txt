@@ -1,0 +1,17 @@
+streamlit
+matplotlib
+pandas
+ExifRead
+seaborn
+mutagen
+Pillow
+PyPDF2
+qrcode
+segno
+PIL
+datetime
+hashlib
+cryptography.fernet
+opencv
+os
+time
