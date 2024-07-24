@@ -7,7 +7,7 @@ import paramiko
 #from path import Path
 #import datetime
 
-#st.title("Core SFTP")
+st.title("Core SFTP")
     
 paramiko.util.log_to_file("paramiko.log")
 host,port = "ssh.pythonanywhere.com",22
@@ -30,7 +30,7 @@ localpath = "C:/Users/aforr/Thonny/MM/" + outfile
 filepath = "/home/alastair/encrypted/" + outfile
 sftp.put(localpath,filepath)
 
-#st.write('finished')
+st.write('finished')
 
 if sftp: sftp.close()
 if transport: transport.close()
